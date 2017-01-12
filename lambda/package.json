@@ -1,5 +1,5 @@
 {
-  "name": "lambda",
+  "name": "doorbell-lambda",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",

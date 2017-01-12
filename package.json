@@ -1,5 +1,5 @@
 {
-  "name": "aws-lambda-rds-stress-test",
+  "name": "doorbell",
   "version": "0.1.0",
   "description": "Test the limits of the Lambda-RDS relationship.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sdelrio0/aws-lambda-rds-stress-test.git"
+    "url": "git+ssh://git@github.com/sdelrio0/doorbell.git"
   },
   "keywords": [
     "aws",
@@ -26,9 +26,9 @@
   "author": "Sergio del Rio @sdelrio0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sdelrio0/aws-lambda-rds-stress-test/issues"
+    "url": "https://github.com/sdelrio0/doorbell/issues"
   },
-  "homepage": "https://github.com/sdelrio0/aws-lambda-rds-stress-test#readme",
+  "homepage": "https://github.com/sdelrio0/doorbell#readme",
   "dependencies": {
     "aws-sdk": "^2.7.21"
   },
