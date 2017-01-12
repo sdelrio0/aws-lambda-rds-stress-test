@@ -7,7 +7,7 @@
     "build:clean": "rm -rf dist/",
     "prebuild": "npm run build:clean",
     "build": "babel --copy-files --out-dir dist/ ./index.js # > /dev/null",
-    "test": "echo \"Error: no test specified\" && exit 1 # source .env.test && mocha --compilers js:babel-core/register --require ./__tests__/test_helper.js --recursive ./__tests__/tests",
+    "test": "mocha --compilers js:babel-core/register --recursive tests/ # --require ./__tests__/test_helper.js",
     "start": "npm run build && node ./dist/index.js"
   },
   "repository": {
