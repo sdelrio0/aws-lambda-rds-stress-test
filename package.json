@@ -1,0 +1,28 @@
+{
+  "name": "aws-lambda-rds-stress-test",
+  "version": "0.1.0",
+  "description": "Test the limits of the Lambda-RDS relationship.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sdelrio0/aws-lambda-rds-stress-test.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "rds",
+    "stress",
+    "test",
+    "limit",
+    "experiment"
+  ],
+  "author": "Sergio del Rio @sdelrio0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdelrio0/aws-lambda-rds-stress-test/issues"
+  },
+  "homepage": "https://github.com/sdelrio0/aws-lambda-rds-stress-test#readme"
+}
