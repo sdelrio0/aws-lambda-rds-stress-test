@@ -10,4 +10,4 @@ arn:aws:iam::875566058060:role/lambda-full-access
    - Database
    - Lambda function
    
-Bump2
+Bump
